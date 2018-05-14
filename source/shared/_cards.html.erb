@@ -11,101 +11,13 @@
 <div class="main-container">
   <div class="card-container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/rio.jpg)">
-          Rio
+      <% data.cities.each do |city| %>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card" style="background-image: url(<%= city.picture %>);">
+            <%= city.name %>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/berlin.jpg)">
-          Berlin
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/shanghai.jpg)">
-          Shanghai
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/barcelona.jpg)">
-          Barcelona
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/rio.jpg)">
-          Rio
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/berlin.jpg)">
-          Berlin
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/shanghai.jpg)">
-          Shanghai
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/barcelona.jpg)">
-          Barcelona
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/rio.jpg)">
-          Rio
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/berlin.jpg)">
-          Berlin
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/shanghai.jpg)">
-          Shanghai
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/barcelona.jpg)">
-          Barcelona
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/rio.jpg)">
-          Rio
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/berlin.jpg)">
-          Berlin
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/shanghai.jpg)">
-          Shanghai
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/barcelona.jpg)">
-          Barcelona
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/rio.jpg)">
-          Rio
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/berlin.jpg)">
-          Berlin
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="card" style="background-image: url(images/shanghai.jpg)">
-          Shanghai
-        </div>
-      </div>
+      <% end %>
     </div>
   </div>
 </div>

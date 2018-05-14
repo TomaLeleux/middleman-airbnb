@@ -6,8 +6,9 @@
 // General style
 $font-family-sans-serif:  $body-font;
 $headings-font-family:    $headers-font;
-$body-bg:                 $light-gray;
+$body-bg:                 $eagle-green;
 $font-size-base: 18px;
+$link-color:              #247ba0;
 
 // Colors
 $gray-base:       $gray;
@@ -23,3 +24,33 @@ $border-radius-large: 2px;
 $border-radius-small: 2px;
 
 // Override other variables below!
+
+// Dropdown
+//** Background for the dropdown menu.
+$dropdown-bg:                    #fff !default;
+//** Dropdown menu `border-color`.
+$dropdown-border:                rgba(0,0,0,.15) !default;
+//** Dropdown menu `border-color` **for IE8**.
+$dropdown-fallback-border:       #ccc !default;
+//** Divider color for between dropdown items.
+$dropdown-divider-bg:            #e5e5e5 !default;
+
+//** Dropdown link text color.
+$dropdown-link-color:            $dark-liver !default;
+//** Hover color for dropdown links.
+$dropdown-link-hover-color:      darken($dark-liver, 5%) !default;
+//** Hover background for dropdown links.
+$dropdown-link-hover-bg:         #f5f5f5 !default;
+
+//** Disabled dropdown menu item background color.
+$dropdown-link-disabled-color:   $light-gray !default;
+
+//** Text color for headers within dropdown menus.
+$dropdown-header-color:          $light-gray !default;
+
+//** Deprecated `$dropdown-caret-color` as of v3.1.0
+$dropdown-caret-color: #000 !default;
+
+
+// Navbar
+$navbar-default-toggle-border-color: #fff;
