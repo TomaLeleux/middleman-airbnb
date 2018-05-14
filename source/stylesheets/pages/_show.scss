@@ -1,0 +1,61 @@
+.city-flat {
+  background-size: cover !important;
+  background-position: center;
+  height: 40vh;
+}
+
+.owner {
+  width: 100px;
+  height: 100px;
+
+}
+
+.header-flat-details {
+  color: $light-gray;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-left: 0;
+  h1 {
+    font-size: 18px;
+  }
+}
+
+.header-flat-name{
+  padding: 0 15px;
+}
+
+.rating {
+  width:13px;
+}
+
+.header-flat-owner {
+  padding: 20px;
+  p {
+    font-size: 14px;
+
+    font-family: open-sans;
+  }
+}
+
+.header-flat form {
+  margin: 20px 0;
+  margin-right: 0;
+  background: $dark-liver;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.header-flat p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #777777;
+}
+
+p {
+  margin: 0 0 12.5px;
+}
+
+.book {
+  width: 100%
+}

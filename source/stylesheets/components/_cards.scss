@@ -15,6 +15,9 @@
   padding: 50px;
   margin: 15px 10px;
   letter-spacing: 1px;
+  h3 {
+    font-size: 20px;
+  }
 }
 
 .card-container {
@@ -40,13 +43,14 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
+  width: 100%;
   h2 {
     font-size: 24px;
   }
   p {
     font-size: 14px;
-    opacity: 0.7;
-    font-weight: lighter;
+    // opacity: 0.7;
+    // font-weight: lighter;
   }
 }
 
@@ -62,4 +66,11 @@
   &hover {
     opacity: 0.1;
   }
+}
+
+.rating {
+  color: #ffb400;
+  font-size: 14px;
+  width: 13px;
+  line-height: 13px;
 }
